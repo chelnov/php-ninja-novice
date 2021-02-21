@@ -71,7 +71,7 @@
                 $title = '유머 글 수정';
                 $joke = $this->jokesTable->findById($_GET['id']);
             } else {
-                $title = '유머 글 작성';
+                $title = '유머 글 작성!';
                 $joke = [];
                 $joke['id'] = '';
                 $joke['joketext'] = '';
